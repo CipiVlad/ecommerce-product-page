@@ -1,0 +1,25 @@
+//Layout
+
+//Screen Views
+$desktop_view: 1440px;
+$mobile_view: 375px;
+
+// Colors
+/// primary
+$primary_color_orange: hsl(26, 100%, 55%);
+$pirmary_color_pale_orange: hsl(25, 100%, 94%);
+
+///neutral
+$neutral_darkblue: hsl(220, 13%, 13%);
+$neutral_grayish_blue_dark: hsl(219, 9%, 45%);
+$neutral_grayish_blue: hsl(220, 14%, 75%);
+$neutral_grayish_blue_light: hsl(223, 64%, 98%);
+$neutral_white: hsl(0, 0%, 100%);
+$neutral_black: hsl(0, 0%, 0%);
+
+//Typography
+
+// Font
+$default_font_size: 16px;
+$default-font_weight: 400;
+$bold_font_weight: 700;
