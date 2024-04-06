@@ -4,6 +4,7 @@
 :root {
     font-family: "Kumbh Sans", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
+    max-width: $desktop_view;
 }

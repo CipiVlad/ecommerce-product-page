@@ -1,4 +1,5 @@
-import LandingPage from './pages/LandingPage'
+// import LandingPage from './pages/LandingPage'
+import NavBar from './components/NavBar'
 import './sass/App.scss'
 
 function App() {
@@ -7,10 +8,9 @@ function App() {
   return (
 
     <div className="App">
-      <LandingPage />
-      <h1>Hello World</h1>
-      <h2>O Boy, {tsDummy}</h2>
+      <NavBar />
     </div>
+
   )
 }
 
