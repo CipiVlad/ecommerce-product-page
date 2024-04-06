@@ -1,0 +1,24 @@
+@import '../sass/variables';
+
+
+.product_description_container {
+    p:nth-child(1) {
+        font-weight: 700;
+        color: $primary_color_orange;
+    }
+
+    .former_price {
+        text-decoration: line-through;
+        color: $neutral_grayish_blue;
+    }
+
+}
+
+
+// container for Counter and AddToCart
+.add_to_cart_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}

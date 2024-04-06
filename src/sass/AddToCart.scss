@@ -1,0 +1,27 @@
+@import '../sass/variables';
+
+.add_to_cart {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+    background-color: $primary_color_orange;
+    color: $neutral_white;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: $pirmary_color_pale_orange;
+    }
+
+    box-shadow: 0 0 10px $primary_color_orange;
+
+    img {
+        width: 20px;
+    }
+
+    p {
+        font-weight: $bold_font_weight;
+    }
+
+}

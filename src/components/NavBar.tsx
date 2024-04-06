@@ -4,8 +4,7 @@ import { NavBarContent } from '../models/NavBar.model'
 
 const NavBar = () => {
     // need some logic for 
-    const { cartCount, links, avatar, cartIcon, logo } = NavBarContent
-
+    const { cartCount, links, avatar, cartIcon, logo } = NavBarContent;
     return (
         <nav>
             <div className='navbar_ctn_left'>
