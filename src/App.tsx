@@ -1,4 +1,4 @@
-// import LandingPage from './pages/LandingPage'
+import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar'
 import './sass/App.scss'
 
@@ -9,6 +9,7 @@ function App() {
 
     <div className="App">
       <NavBar />
+      <LandingPage />
     </div>
 
   )

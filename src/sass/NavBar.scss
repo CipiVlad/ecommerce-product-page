@@ -4,7 +4,6 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 2vh;
-    background-color: $primary_color_orange;
 
     .navbar_ctn_left {
         display: flex;
@@ -26,10 +25,7 @@ nav {
         display: flex;
         align-items: center;
 
-        svg:hover {
-            cursor: pointer;
-            fill: $neutral_darkblue;
-        }
+        // .cartIcon{} on hover svg must change color
 
         .avatar {
             margin-left: 1vw;
