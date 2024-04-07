@@ -35,14 +35,19 @@ nav {
             cursor: pointer;
         }
 
+        .hoverFill:hover {
+            fill: $neutral_black;
+            cursor: pointer;
+        }
+
         .cartCount {
             font-weight: 600;
             position: absolute;
             margin-right: 1vw;
             margin-left: 10px;
             margin-bottom: 20px;
-            color: hsl(0, 0%, 100%);
-            background-color: hsl(26, 100%, 55%);
+            color: $neutral_white;
+            background-color: $primary_color_orange;
             padding: 1px 8px;
             border-radius: 30% / 55%;
             font-size: 12px;
@@ -50,8 +55,12 @@ nav {
 
         .avatar {
             margin-left: 1vw;
-            width: 40px;
-            height: 40px;
+            width: 60px;
+
+            &:active {
+                border: 2px solid $primary_color_orange;
+                border-radius: 50%;
+            }
         }
 
     }

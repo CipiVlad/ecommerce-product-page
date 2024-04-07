@@ -1,10 +1,11 @@
 import '../sass/NavBar.scss'
 import { NavBarContent } from '../models/NavBar.model'
+import CustomLogo from './CustomLogo';
 
 
 const NavBar = () => {
     // need some logic for 
-    const { cartCount, links, avatar, cartIcon, logo } = NavBarContent;
+    const { cartCount, links, avatar, logo } = NavBarContent;
     return (
         <nav>
             <div className='navbar_ctn_left'>
@@ -18,9 +19,10 @@ const NavBar = () => {
             </div>
 
             <div className='navbar_ctn_right'>
-                <img src={cartIcon.src} alt={cartIcon.alt} className='cartIcon' />
+                <CustomLogo fill={'#69707D'} className='hoverFill' />
                 {/* //  onClick={handleCartClick} */}
                 <span className='cartCount'>{cartCount}</span>
+
                 <img src={avatar.src} alt={avatar.alt} className='avatar' />
                 {/* on handleCartClick here will appear another component
 
