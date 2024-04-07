@@ -9,6 +9,7 @@ function App() {
 
     <div className="App">
       <NavBar />
+      <div className="line"></div>
       <LandingPage />
     </div>
 
