@@ -20,7 +20,7 @@
 // container for Counter and AddToCart
 .add_to_cart_container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 10em;
 }
