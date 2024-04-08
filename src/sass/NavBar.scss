@@ -35,6 +35,32 @@ nav {
             cursor: pointer;
         }
 
+        .cart_svg {
+            cursor: pointer;
+        }
+
+        .menuBox {
+
+            position: absolute;
+            margin-top: 3vh;
+            width: 300px;
+            height: 200px;
+            background-color: $neutral_white;
+            right: 15vw;
+            top: 10vh;
+            z-index: 10;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+            border-radius: 8px;
+
+            p {
+                margin-left: 1vw;
+                font-weight: 700;
+            }
+
+
+        }
+
         .cartCount {
             font-weight: 600;
             position: absolute;
