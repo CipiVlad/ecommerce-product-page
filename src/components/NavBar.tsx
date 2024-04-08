@@ -19,8 +19,7 @@ const NavBar = () => {
             </div>
 
             <div className='navbar_ctn_right'>
-                <CustomLogo fill={'#69707D'} className='hoverFill' />
-                {/* //  onClick={handleCartClick} */}
+                <CustomLogo />
                 <span className='cartCount'>{cartCount}</span>
 
                 <img src={avatar.src} alt={avatar.alt} className='avatar' />
