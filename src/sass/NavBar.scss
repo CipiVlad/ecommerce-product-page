@@ -40,11 +40,10 @@ nav {
         }
 
         .menuBox {
-
             position: absolute;
             margin-top: 3vh;
-            width: 300px;
-            height: 200px;
+            width: 320px;
+            height: 220px;
             background-color: $neutral_white;
             right: 15vw;
             top: 10vh;
@@ -58,7 +57,74 @@ nav {
                 font-weight: 700;
             }
 
+            .empty_cart_text {
+                display: flex;
+                justify-content: center;
 
+                p {
+                    color: $neutral_grayish_blue_dark;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .cart_content {
+                display: flex;
+                align-items: self-end;
+                position: absolute;
+                top: 6vh;
+                left: 1em;
+
+                .cart_content_thumbnail {
+                    img {
+                        margin-top: 1vh;
+                        margin-bottom: 1vh;
+                        width: 50px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+                }
+
+                .cart_content_description {
+                    p {
+                        font-size: smaller;
+                        font-weight: $default-font_weight;
+                        color: $neutral_grayish_blue;
+
+                        span {
+                            font-weight: $bold_font_weight;
+                            color: $neutral_darkblue;
+                        }
+                    }
+                }
+
+                .cart_content_delete {
+                    margin: auto 2.5vh;
+
+                    img {
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+            .cart_content_button {
+                text-align: center;
+
+                button {
+                    font-family: "Kumbh Sans", sans-serif;
+                    font-weight: $bold_font_weight;
+                    background-color: $primary_color_orange;
+                    color: $neutral_white;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    width: 90%;
+                    padding: 10px;
+                }
+            }
         }
 
         .cartCount {

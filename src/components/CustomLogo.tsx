@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Cart from "./Cart";
 
 const CustomLogo = () => {
     const [fill, setFill] = useState("#69707D");
@@ -8,6 +9,7 @@ const CustomLogo = () => {
         <div className="menuBox">
             <p>Cart</p>
             <div className="line"></div>
+            <Cart />
         </div>
 
     const handleCartClick = () => {
