@@ -18,6 +18,7 @@
         display: flex;
         justify-content: space-between;
 
+
         div {
             img {
                 width: 100px;
@@ -40,6 +41,13 @@
                     opacity: 0.5;
                 }
             }
+        }
+
+        div:nth-child(1) img {
+
+            border: 2px solid $primary_color_orange;
+            border-radius: 12px;
+
         }
     }
 }

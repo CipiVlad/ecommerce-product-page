@@ -11,7 +11,7 @@ const ProductDescription = () => {
             <p>{brand.toUpperCase()}</p>
             <h1>{title}</h1>
             <p>{description}</p>
-            <h3>${price.toFixed(2)} <span>{discountPercentage}%</span> </h3>
+            <h2>${price.toFixed(2)} <span>{discountPercentage}%</span> </h2>
             <p className="former_price">${formerPrice.toFixed(2)}</p>
             <div className="add_to_cart_container">
                 <Counter />

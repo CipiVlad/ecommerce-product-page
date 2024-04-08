@@ -11,10 +11,10 @@ const ImageGrid = () => {
                 <img src={bigImg} alt="big image of sneaker" />
             </div>
             <div className="small_images">
-                <div><img src={thumb1} alt="" /></div>
-                <div><img src={thumb2} alt="" /></div>
-                <div><img src={thumb3} alt="" /></div>
-                <div><img src={thumb4} alt="" /></div>
+                <div><img src={thumb1} alt="thumb1" /></div>
+                <div><img src={thumb2} alt="thumb2" /></div>
+                <div><img src={thumb3} alt="thumb3" /></div>
+                <div><img src={thumb4} alt="thumb4" /></div>
             </div>
         </div>
     )

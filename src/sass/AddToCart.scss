@@ -9,12 +9,17 @@
     color: $neutral_white;
     padding: 0.5em 1.5em;
     border-radius: 8px;
+    box-shadow: 0px 1px 16px 0px $primary_color_orange;
+
 
     &:hover {
-        background-color: $pirmary_color_pale_orange;
+        background-color: $primary_color_orange;
+        opacity: 0.7;
+        transition: 0.2s ease-in-out;
+
     }
 
-    box-shadow: 0 0 10px $primary_color_orange;
+
 
     img {
         width: 20px;
