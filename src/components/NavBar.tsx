@@ -6,12 +6,10 @@ import { useContext } from 'react';
 
 const NavBar = () => {
     const { count } = useContext(CounterContext)
-    console.log("from NavBar:", count);
-
-
     let { cartCount } = NavBarContent
     cartCount = count
     const { links, avatar, logo } = NavBarContent;
+
     return (
         <nav>
             <div className='navbar_ctn_left'>

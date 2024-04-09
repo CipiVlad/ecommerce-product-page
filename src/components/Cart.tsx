@@ -28,7 +28,7 @@ const Cart = () => {
                             </div>
                             <div className="cart_content_description">
                                 <p>{title}</p>
-                                <p>${price.toFixed(2)} x {count} <span>${(price * 3).toFixed(2)}</span> </p>
+                                <p>${price.toFixed(2)} x {count} <span>${(price * count).toFixed(2)}</span> </p>
                             </div>
                             <div className="cart_content_delete">
                                 <img src="./src/assets/images/icon-delete.svg" alt="" />
