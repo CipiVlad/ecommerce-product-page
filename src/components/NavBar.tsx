@@ -5,11 +5,11 @@ import { CounterContext } from '../contexts/CounterContextProvider';
 import { useContext } from 'react';
 
 const NavBar = () => {
+
     const { count } = useContext(CounterContext)
     let { cartCount } = NavBarContent
     cartCount = count
     const { links, avatar, logo } = NavBarContent;
-
     return (
         <nav>
             <div className='navbar_ctn_left'>
