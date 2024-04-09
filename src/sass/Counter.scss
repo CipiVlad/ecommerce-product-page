@@ -1,0 +1,25 @@
+@import '../sass/variables';
+
+.counter_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5em;
+    background-color: $neutral_grayish_blue_light;
+    border-radius: 8px;
+
+    button {
+        display: block;
+        background-color: transparent;
+        color: $primary_color_orange;
+        font-weight: $bold_font_weight;
+        font-size: x-large;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    p {
+        font-weight: $bold_font_weight;
+    }
+}
