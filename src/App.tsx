@@ -1,18 +1,17 @@
 import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar'
 import './sass/App.scss'
-
+import CounterContextProvider from './contexts/CounterContextProvider'
 function App() {
-  const tsDummy: string = 'hello world'
 
   return (
-
-    <div className="App">
-      <NavBar />
-      <div className="line"></div>
-      <LandingPage />
-    </div>
-
+    <CounterContextProvider>
+      <div className="App">
+        <NavBar />
+        <div className="line"></div>
+        <LandingPage />
+      </div>
+    </CounterContextProvider>
   )
 }
 

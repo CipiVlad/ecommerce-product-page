@@ -1,11 +1,19 @@
 //here goes the logic and style for Cart Content when it is open && empty or when it's open and filled with content
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { product } from "../models/ProductDescription.model"
 import prdThumbnail from '../assets/images/image-product-1-thumbnail.jpg'
+import { CounterContext } from "../contexts/CounterContextProvider";
+
+
 const Cart = () => {
     const [cartHasItems, setCartHasItems] = useState(true);
     const { title, description, price, discountPercentage, formerPrice, brand } = product;
     const emptyCard = 'Your cart is empty';
+
+
+    const { count, setCount } = useContext(CounterContext);
+    console.log(count);
+
 
     return (
 
@@ -20,7 +28,7 @@ const Cart = () => {
                             </div>
                             <div className="cart_content_description">
                                 <p>{title}</p>
-                                <p>${price.toFixed(2)} x 3 <span>${(price * 3).toFixed(2)}</span> </p>
+                                <p>${price.toFixed(2)} x {count} <span>${(price * 3).toFixed(2)}</span> </p>
                             </div>
                             <div className="cart_content_delete">
                                 <img src="./src/assets/images/icon-delete.svg" alt="" />
