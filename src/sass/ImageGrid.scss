@@ -17,6 +17,23 @@
             border-radius: 16px;
             cursor: pointer;
         }
+
+        .arrow_prev,
+        .arrow_next {
+            bottom: 45%;
+            background-color: $neutral_white;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .arrow_prev {
+            left: 5%;
+        }
+
+        .arrow_next {
+            right: 5%;
+        }
+
     }
 
     .small_images {

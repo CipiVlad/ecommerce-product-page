@@ -52,6 +52,9 @@ nav {
                 rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
             border-radius: 8px;
 
+            //when modal is open 
+            z-index: auto;
+
             p {
                 margin-left: 1vw;
                 font-weight: 700;
