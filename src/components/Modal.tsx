@@ -8,7 +8,7 @@ import '../sass/ImageGrid.scss'
 import { motion, AnimatePresence } from 'framer-motion'
 
 
-const Modal = ({ openModal, setOpenModal }) => {
+const Modal = ({ openModal, setOpenModal }: { openModal: boolean, setOpenModal: React.Dispatch<React.SetStateAction<boolean>> }) => {
 
     const closeModal = () => {
         setOpenModal(false)
