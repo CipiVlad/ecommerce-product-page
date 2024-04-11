@@ -12,6 +12,7 @@ const Cart = () => {
     const emptyCard = 'Your cart is empty';
 
 
+
     // for cart content ultimate update
     useEffect(() => {
         setCartHasItems(count > 0 ? true : false)

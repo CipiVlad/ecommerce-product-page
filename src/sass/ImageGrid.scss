@@ -6,11 +6,16 @@
     justify-content: space-evenly;
     gap: 1em;
 
+
     .bigImage {
+        display: block;
+        text-align: center;
+
         img {
             width: 449px;
             object-fit: cover;
             border-radius: 16px;
+            cursor: pointer;
         }
     }
 
@@ -49,5 +54,14 @@
             border-radius: 12px;
 
         }
+    }
+}
+
+.modal {
+    // display: grid;
+
+    .close_modal {
+        cursor: pointer;
+        text-align: right;
     }
 }

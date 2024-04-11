@@ -60,15 +60,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - IDE: vscode
 - Module Bundler: vite
 - Package Manager: npm
-- Frameworks/Libraries/Supersets: SASS, React, Jest, Typescript, Valibot
+- Frameworks/Libraries/Supersets: SASS, React, Jest?, Typescript, Valibot?, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
 - Deployment: github
 - Browsers: Google Chrome
-- 
-
-
-- Mobile-first workflow
+- Style-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 

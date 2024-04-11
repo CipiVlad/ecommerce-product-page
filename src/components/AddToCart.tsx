@@ -1,5 +1,6 @@
 import '../sass/AddToCart.scss'
-import cartIcon from '../assets/images/icon-cart.svg'
+// import cartIcon from '../assets/images/icon-cart.svg'
+
 const AddToCart = () => {
     return (
         <div className="add_to_cart">
@@ -8,7 +9,7 @@ const AddToCart = () => {
                 fill='#fff'
                 fillRule="nonzero" />
             </svg>
-            <p>Add to cart</p>
+            <button>Add to cart</button>
         </div>
     )
 }
