@@ -50,7 +50,7 @@ const Modal = ({ openModal, setOpenModal }) => {
                                 </svg>
                             </div>
                             <div className="bigImage">
-                                <img src={bigImg} alt="big image of sneaker" />
+                                <img src={bigImg} alt="bigImg" />
                             </div>
                             <div className="small_images">
                                 <div ><img src={thumb1} alt="thumb1" /></div>
