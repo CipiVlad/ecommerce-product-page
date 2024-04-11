@@ -57,11 +57,56 @@
     }
 }
 
+// Modal styles
+
 .modal {
-    // display: grid;
+
 
     .close_modal {
         cursor: pointer;
         text-align: right;
+
+        img {
+            fill: #ff7d1a;
+        }
+    }
+
+    .small_images_modal {
+        display: flex;
+        justify-content: space-between;
+
+
+        div {
+            img {
+                width: 100px;
+                object-fit: cover;
+                margin: 0 0.5em;
+                border-radius: 12px;
+
+
+                &:active {
+                    border: 2px solid $primary_color_orange;
+                    cursor: pointer;
+                    opacity: 0.5;
+
+                }
+
+                &:hover {
+                    // transition: 0.5s ease-in-out;
+                    border: none;
+                    cursor: pointer;
+                    opacity: 0.5;
+                }
+            }
+
+            .thumb_active {
+                border: 2px solid $primary_color_orange;
+                border-radius: 12px;
+            }
+
+        }
+
+
+
     }
 }
