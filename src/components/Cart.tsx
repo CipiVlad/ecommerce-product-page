@@ -9,7 +9,7 @@ const Cart = () => {
     const { count, dispatch, setCount, setDispatch } = useContext(CounterContext);
     const [cartHasItems, setCartHasItems] = useState(count > 0 ? true : false);
     const { title, price } = product;
-    const emptyCard = 'Your cart is empty';
+    const [emptyCart, setEmptyCart] = useState('Your cart is empty');
 
     // for cart content ultimate update
     useEffect(() => {
@@ -24,6 +24,7 @@ const Cart = () => {
     const handleCheckOut = () => {
         setCount(0)
         setDispatch(0)
+        setEmptyCart('Thank you for your purchase!')
     }
 
 
@@ -56,7 +57,7 @@ const Cart = () => {
 
                     //when cart is empty
                     <div className="empty_cart_text">
-                        <p>{emptyCard}</p>
+                        <p>{emptyCart}</p>
                     </div>
             }
         </>
