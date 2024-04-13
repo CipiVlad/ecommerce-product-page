@@ -44,7 +44,7 @@ Users should be able to:
 ### Built with
 
 - Project Management Tool: [Trello](https://trello.com/b/LzYHEZdo/e-commerce-product-page-frontendmentor) 
-![Screenshot of my workflow](./public/screenshots/trelloboard/workInProgress1.png)
+![Screenshot of my workflow](./public/screenshots/trelloboard/workInProgress2.png)
 
 - DevOps Tools: CI/CD with github actions and docker
 - IDE: vscode
