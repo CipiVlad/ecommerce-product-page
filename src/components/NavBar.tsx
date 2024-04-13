@@ -17,7 +17,7 @@ const NavBar = () => {
 
                 {
                     links.map((link, index) => {
-                        return <a href="#" key={index} className='onHover'>{link}</a>
+                        return <a href="https://cipivlad.github.io/myportfoliosite/" key={index} className='onHover'>{link}</a>
                     })
                 }
             </div>
