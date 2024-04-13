@@ -16,7 +16,6 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -46,23 +45,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
--[Live Site URL:](https://cipivlad.github.io/ecommerce-product-page/)
+- View Live Site: [deployed on github pages:](https://cipivlad.github.io/ecommerce-product-page/)
 
 ## My process
 
 ### Built with
 
 - Project Management Tool: [Trello](https://trello.com/b/LzYHEZdo/e-commerce-product-page-frontendmentor) 
-```html
-<img src="../../../Downloads/CI_CD Pipeline.png" alt="ci-cd pipeline">
- ```
+![](../../../Downloads/CI_CD%20Pipeline.png)
+
 - DevOps Tools: CI/CD with github actions and docker
 - IDE: vscode
 - Module Bundler: vite
 - Package Manager: npm
 - Frameworks/Libraries/Supersets: SASS, React, Jest?, Typescript, Valibot?, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
 - Deployment: github
-- Browsers: Google Chrome
+- Browsers: Google Chrome, Firefox
 - Style-first workflow
 - [React](https://reactjs.org/) - JS library
 
@@ -87,11 +85,6 @@ const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -109,16 +102,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Portfolio](https://cipivlad.github.io/myportfoliosite/)
+- Frontend Mentor - [@CipiVlad](https://www.frontendmentor.io/profile/CipiVlad)
+- DEV.to [https://dev.to/cipivlad](https://dev.to/cipivlad)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+## Tags
 
-## Acknowledgments
+#react, #typescript, #scss, #vite, #github, #git, #form, #react-router, #jest
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-# ecommerce-product-page
-# ecommerce-product-page
