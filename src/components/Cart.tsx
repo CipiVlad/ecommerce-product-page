@@ -6,17 +6,19 @@ import { CounterContext } from "../contexts/CounterContextProvider";
 
 
 const Cart = () => {
-    const { count } = useContext(CounterContext);
+    const { count, dispatch, setCount, setDispatch } = useContext(CounterContext);
     const [cartHasItems, setCartHasItems] = useState(count > 0 ? true : false);
-    const { title, description, price, discountPercentage, formerPrice, brand } = product;
+    const { title, price } = product;
     const emptyCard = 'Your cart is empty';
-
-
 
     // for cart content ultimate update
     useEffect(() => {
-        setCartHasItems(count > 0 ? true : false)
-    }, [count])
+        setCartHasItems(dispatch > 0 ? true : false)
+        if (cartHasItems === false) {
+            setCount(0)
+            setDispatch(0)
+        }
+    }, [dispatch, count, cartHasItems, setCartHasItems, setCount, setDispatch])
 
 
     return (
@@ -35,15 +37,18 @@ const Cart = () => {
                                 <p>${price.toFixed(2)} x {count} <span>${(price * count).toFixed(2)}</span> </p>
                             </div>
                             <div className="cart_content_delete">
-                                <img src="./src/assets/images/icon-delete.svg" alt="" />
+                                <img src="./src/assets/images/icon-delete.svg" alt="delete-icon"
+                                    onClick={() => setCartHasItems(false)}
+                                />
                             </div>
-
                         </div>
                         <div className="cart_content_button">
                             <button>Checkout</button>
                         </div>
                     </>
                     :
+
+                    //when cart is empty
                     <div className="empty_cart_text">
                         <p>{emptyCard}</p>
                     </div>
