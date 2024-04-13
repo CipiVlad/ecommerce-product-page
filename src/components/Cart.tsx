@@ -20,6 +20,12 @@ const Cart = () => {
         }
     }, [dispatch, count, cartHasItems, setCartHasItems, setCount, setDispatch])
 
+    // handle checkout button
+    const handleCheckOut = () => {
+        setCount(0)
+        setDispatch(0)
+    }
+
 
     return (
 
@@ -43,7 +49,7 @@ const Cart = () => {
                             </div>
                         </div>
                         <div className="cart_content_button">
-                            <button>Checkout</button>
+                            <button onClick={handleCheckOut}>Checkout</button>
                         </div>
                     </>
                     :
