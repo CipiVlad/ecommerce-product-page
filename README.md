@@ -46,7 +46,7 @@ Users should be able to:
 - Project Management Tool: [Trello](https://trello.com/b/LzYHEZdo/e-commerce-product-page-frontendmentor) 
 ![Screenshot of my workflow](./public/screenshots/trelloboard/workInProgress2.png)
 
-- DevOps Tools: CI/CD with github actions and docker
+- DevOps Tools: CI/CD with github actions and pages
 - IDE: vscode
 - Module Bundler: vite
 - Package Manager: npm
