@@ -7,3 +7,15 @@
     margin: 0 auto;
     width: 70%;
 }
+
+@media screen and (max-width: $mobile_view) {
+    .landing_page_flex_container {
+        display: block;
+        width: 100%;
+
+        .image_grid {
+            display: grid;
+        }
+    }
+
+}

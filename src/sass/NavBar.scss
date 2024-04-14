@@ -172,7 +172,7 @@ nav {
         height: 896px;
         background-color: $neutral_white;
         transition: transform 0.3s ease-in-out;
-        padding: 5vh 0;
+        padding: 1vh 0;
 
         ul li {
             list-style: none;
@@ -228,6 +228,24 @@ nav {
 
 
         .navbar_ctn_right {
+
+
+            .menuBox {
+                p {
+                    margin-left: 5vw;
+                }
+
+                .cart_content {}
+
+                .cart_content_button {
+                    margin-top: 12vh;
+
+                    button {
+                        width: 75%;
+                    }
+                }
+            }
+
 
             .cart_svg {
                 width: 40px;

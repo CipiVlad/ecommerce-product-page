@@ -62,3 +62,48 @@
         box-shadow: 0 0 10px $primary_color_orange;
     }
 }
+
+
+@media screen and (max-width: $mobile_view) {
+
+    .product_description_container {
+        width: 100%;
+        margin: 0;
+
+        h1 {
+            font-size: xx-large;
+        }
+
+        p:nth-of-type(2) {
+            font-size: $default_font_size;
+            color: $neutral_grayish_blue_dark;
+        }
+
+        h2 {
+            display: inline-flex;
+            margin-right: 45vw;
+        }
+
+        .former_price {
+            display: inline;
+        }
+
+        .add_to_cart_container {
+            display: inline;
+
+            .counter_container {
+                width: 75%;
+                margin: 0 auto;
+            }
+
+            .add_to_cart {
+                width: 55%;
+                margin: 0 auto;
+
+                button {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}

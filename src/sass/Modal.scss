@@ -1,0 +1,9 @@
+@import '../sass/variables';
+
+
+@media screen and (max-width: $mobile_view) {
+    .modal {
+        display: none;
+    }
+
+}
