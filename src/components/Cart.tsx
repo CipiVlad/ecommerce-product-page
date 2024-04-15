@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { product } from "../models/ProductDescription.model"
 import prdThumbnail from '../assets/images/image-product-1-thumbnail.jpg'
 import { CounterContext } from "../contexts/CounterContextProvider";
+import deleteIcon from '../assets/images/icon-delete.svg'
 
 
 const Cart = () => {
@@ -44,7 +45,7 @@ const Cart = () => {
                                 <p>${price.toFixed(2)} x {count} <span>${(price * count).toFixed(2)}</span> </p>
                             </div>
                             <div className="cart_content_delete">
-                                <img src="./src/assets/images/icon-delete.svg" alt="delete-icon"
+                                <img src={deleteIcon} alt="delete-icon"
                                     onClick={() => setCartHasItems(false)}
                                 />
                             </div>
