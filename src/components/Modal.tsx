@@ -3,7 +3,6 @@ import { bigImages, thumbnails } from '../models/Images.model'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
-
 const Modal = ({ openModal, setOpenModal }: { openModal: boolean, setOpenModal: React.Dispatch<React.SetStateAction<boolean>> }) => {
     const [activeThumbIndex, setActiveThumbIndex] = useState<number | null>(null);
     const [fill_X, setFill_X] = useState("");

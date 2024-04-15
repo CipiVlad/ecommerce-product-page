@@ -2,8 +2,11 @@
 
 
 @media screen and (max-width: $mobile_view) {
-    .modal {
+    .image_grid .modal {
         display: none;
     }
 
+    .overlay {
+        display: none;
+    }
 }

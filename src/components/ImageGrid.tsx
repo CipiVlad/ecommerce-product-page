@@ -6,12 +6,13 @@ import thumb4 from '../assets/images/image-product-4-thumbnail.jpg'
 import '../sass/ImageGrid.scss'
 const ImageGrid = ({ openModal, setOpenModal }: { openModal: boolean, setOpenModal: React.Dispatch<React.SetStateAction<boolean>> }) => {
 
+    //window size bigger than 440px
 
 
     return (
         <>
             <div className="image_grid onMobileImageGrid">
-                <div className="bigImage" onClick={() => setOpenModal(true)}>
+                <div className="bigImage" onClick={window.innerWidth > 440 ? () => setOpenModal(true) : () => setOpenModal(false)} >
                     <img src={bigImg} alt="big image of sneaker" />
                 </div>
                 <div className="small_images" onClick={() => setOpenModal(true)}>
@@ -22,7 +23,6 @@ const ImageGrid = ({ openModal, setOpenModal }: { openModal: boolean, setOpenMod
                 </div>
             </div>
         </>
-
     )
 }
 export default ImageGrid

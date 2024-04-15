@@ -14,12 +14,6 @@ const NavBar = () => {
     const handleOpenSidbar = () => {
         setSidebar(!openSidebar)
     }
-    console.log(openSidebar);
-
-
-    // sidebar
-
-
 
     return (
         <>
