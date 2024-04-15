@@ -10,11 +10,11 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Code Snippets](#code-sn)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Tags](#tags)
 
 
 ## Overview
@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io](https://your-solution-url.com)
 - View Live Site: [deployed on github pages:](https://cipivlad.github.io/ecommerce-product-page/)
 
 ## My process
@@ -53,44 +53,43 @@ Users should be able to:
 - Frameworks/Libraries/Supersets: SASS, React, Typescript, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
 - Deployment: github
 - Browsers: Google Chrome, Firefox
-- Style-first workflow
+- css-first workflow
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### Code Snippets
 
-### What I learned
+Framer Motion for Lightbox
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<AnimatePresence>
+            {openModal && (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overlay"
+                    style={{
+                        position: "fixed",
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        backgroundColor: "rgba(0,0,0,0.75)",
+                        display: "grid",
+                        zIndex: 999999
+                    }}
+                >
+                ...
+
 ```
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- ([CI/CD](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa))
+- [Lightbox](https://www.framer.com/motion/examples/) - This helped me to . I really liked this pattern and will use it going forward.
+- [Sidebar](https://www.w3schools.com/w3css/w3css_sidebar.asp) - This is an amazing article which helped me to create a sidebar. I'd recommend it to anyone still learning this concept.
+-[SVG](https://css-tricks.com/change-color-of-svg-on-hover/) - This helped me to gain greater insight of working with svg's in general.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
