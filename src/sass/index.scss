@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 @import './variables';
 
+
+
 :root {
     font-family: "Kumbh Sans", sans-serif;
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
     max-width: $desktop_view;
-    overflow: hidden;
+    // overflow: hidden;
 }

@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./src/assets/images/sneakers-project.jpg)
 
 ### Links
 
@@ -50,7 +50,7 @@ Users should be able to:
 - IDE: vscode
 - Module Bundler: vite
 - Package Manager: npm
-- Frameworks/Libraries/Supersets: SASS, React, Jest?, Typescript, Valibot?, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
+- Frameworks/Libraries/Supersets: SASS, React, Typescript, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
 - Deployment: github
 - Browsers: Google Chrome, Firefox
 - Style-first workflow

@@ -9,7 +9,7 @@ div {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 2vh 0;
+    padding: 1vh 0;
 
     .navbar_ctn_left {
         display: flex;
@@ -202,8 +202,6 @@ nav {
     }
 
     nav {
-        padding: 0;
-
         .openMenu {
             background-image: url('../assets/images/icon-menu.svg');
             background-repeat: no-repeat;
@@ -213,33 +211,16 @@ nav {
             margin-right: 20px;
         }
 
-        // .closeMenu {
-        //     background-image: url('../assets/images/icon-close.svg');
-        //     background-repeat: no-repeat;
-        //     background-position: center;
-        //     width: 20px;
-        //     height: 20px;
-        // }
-
-
-
         .navbar_ctn_left a {
             display: none;
         }
 
-
-
-
-
         .navbar_ctn_right {
-
 
             .menuBox {
                 p {
                     margin-left: 5vw;
                 }
-
-                .cart_content {}
 
                 .cart_content_button {
                     margin-top: 12vh;
@@ -249,7 +230,6 @@ nav {
                     }
                 }
             }
-
 
             .cart_svg {
                 width: 40px;
