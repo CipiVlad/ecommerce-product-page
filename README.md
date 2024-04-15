@@ -88,7 +88,7 @@ Framer Motion for Lightbox
 
 - [Lightbox](https://www.framer.com/motion/examples/) - This helped me to . I really liked this pattern and will use it going forward.
 - [Sidebar](https://www.w3schools.com/w3css/w3css_sidebar.asp) - This is an amazing article which helped me to create a sidebar. I'd recommend it to anyone still learning this concept.
--[SVG](https://css-tricks.com/change-color-of-svg-on-hover/) - This helped me to gain greater insight of working with svg's in general.
+- [SVG](https://css-tricks.com/change-color-of-svg-on-hover/) - This helped me to gain greater insight of working with svg's in general.
 
 
 ## Author
@@ -99,5 +99,5 @@ Framer Motion for Lightbox
 
 ## Tags
 
-#react, #typescript, #scss, #vite, #github, #git, #form, #react-router, #jest
+#react, #typescript, #scss, #vite, #github, #react-router
 

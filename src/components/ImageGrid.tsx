@@ -4,11 +4,8 @@ import thumb2 from '../assets/images/image-product-2-thumbnail.jpg'
 import thumb3 from '../assets/images/image-product-3-thumbnail.jpg'
 import thumb4 from '../assets/images/image-product-4-thumbnail.jpg'
 import '../sass/ImageGrid.scss'
+
 const ImageGrid = ({ openModal, setOpenModal }: { openModal: boolean, setOpenModal: React.Dispatch<React.SetStateAction<boolean>> }) => {
-
-    //window size bigger than 440px
-
-
     return (
         <>
             <div className="image_grid onMobileImageGrid">
