@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io]()
 - View Live Site: [deployed on github pages:](https://cipivlad.github.io/ecommerce-product-page/)
 
 ## My process
@@ -50,7 +50,8 @@ Users should be able to:
 - IDE: vscode
 - Module Bundler: vite
 - Package Manager: npm
-- Frameworks/Libraries/Supersets: SASS, React, Typescript, [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
+- Frameworks/Libraries/Supersets: SASS, React, Typescript, 
+- [Framer Motion ](https://www.framer.com/motion/examples/) for Lightbox / Modal
 - Deployment: github
 - Browsers: Google Chrome, Firefox
 - css-first workflow
