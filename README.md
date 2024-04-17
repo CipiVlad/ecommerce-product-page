@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io]()
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/ecommerce-product-page-react-ts-scss-S5AjYPhWPU)
 - View Live Site: [deployed on github pages:](https://cipivlad.github.io/ecommerce-product-page/)
 
 ## My process
